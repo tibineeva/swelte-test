@@ -30,10 +30,6 @@
         title: 'People', 
         href: '/people' 
     }, 
-    { 
-        title: 'temp', 
-        href: '/temp' 
-    } 
 ]
 </script> 
  
