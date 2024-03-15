@@ -3,18 +3,18 @@
     let images = [
         {
             src: 'https://art-dot.ru/wp-content/uploads/2020/10/klod-mone-rybatskii-domik-v-varanzh-vile.jpg',
-            alt: 'Рыбацкий домик в Варанж-Виле',
-            caption: 'Клод Моне]'
+            alt: 'Beatiful Nature Image 1',
+            caption: 'Рыбацкий домик в Варанж-Виле — Клод Моне'
         },
         {
             src: 'https://art-dot.ru/wp-content/uploads/2020/10/ivan-shishkin-utro-v-sosnovom-lesu.jpg',
-            alt: 'Утро в сосновом лесу',
-            caption: 'Иван Шишкин'
+            alt: 'Beatiful Nature Image 2',
+            caption: 'Утро в сосновом лесу — Иван Шишкин'
         },
         {
             src: 'https://art-dot.ru/wp-content/uploads/2020/10/andrei-martynov-narodnye-gulyaniya-v-dvortsovom-parke-pod-sankt-peterburgom.jpg',
-            alt: 'Народные гуляния в дворцовом парке под Санкт-Петербургом',
-            caption: 'Андрей Мартынов'
+            alt: 'Beatiful Nature Image 3',
+            caption: 'Народные гуляния в дворцовом парке под Санкт-Петербургом — Андрей Мартынов'
         }
     ];
 
@@ -48,6 +48,15 @@
     .gallery {
     text-align: center;
     margin-top: 20px;
+    background-color: #f9f9f9; /* Цвет фона */
+    padding: 20px; /* Поля вокруг галереи */
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+    transition: background-color 0.3s; /* Анимация изменения цвета фона */
+}
+
+.gallery:hover {
+    background-color: #e9e9e9; /* Цвет фона при наведении курсора */
 }
 
 .gallery img {
@@ -57,6 +66,11 @@
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
+    transition: transform 0.3s; /* Анимация при наведении на изображение */
+}
+
+.gallery img:hover {
+    transform: scale(1.1); /* Увеличение изображения при наведении */
 }
 
 .gallery p {
