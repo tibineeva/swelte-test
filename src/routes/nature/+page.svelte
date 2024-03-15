@@ -95,4 +95,11 @@
 .navigation button:hover {
     background-color: #555;
 }
+
+h1 {
+    font-size: 36px; /* Увеличение размера текста */
+    color: #333; /* Цвет текста */
+    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Тень текста */
+}
 </style>
