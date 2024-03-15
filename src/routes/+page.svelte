@@ -31,7 +31,7 @@
 <div class="background-div"></div> 
  
 <style> 
-    .info { 
+ .info { 
         text-align: center; 
         position: relative; 
     } 
@@ -69,15 +69,14 @@
     .info h2 { 
         max-width: 65ch; 
         font-weight: 200; 
-        margin-top: 0.5rem; 
+        margin-top: 0.50rem; 
     } 
  
     .background-div { 
-        background-color: #ff4a4a;  
-        width: 90%;  
-        height: 60vh;  
-        margin: -200px auto;  
-        position: relative; 
+        background-color: #9bff6a; 
+        width: 100%; 
+        height: 56vh; 
+        margin: -205px auto; 
     } 
  
     .info .info-text { 
@@ -92,6 +91,6 @@
     } 
  
     .scroll-button .arrow { 
-        margin-left: 0.5rem; 
+        margin-left: 0.50rem; 
     } 
 </style>
