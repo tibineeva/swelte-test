@@ -46,13 +46,39 @@
 
 <style>
     .gallery {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+    text-align: center;
+    margin-top: 20px;
+}
 
-    .navigation {
-        margin-top: 20px;
-    }
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.gallery p {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.navigation {
+    margin-top: 20px;
+}
+
+.navigation button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.navigation button:hover {
+    background-color: #555;
+}
 </style>
